@@ -1,6 +1,7 @@
 ### Hi there 👋
 ![Profile](https://github-readme-stats.vercel.app/api?username=onewesong&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=onewesong&hide=html,css)
+</br>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=onewesong&hide=html,css&theme=radical)
 </br>
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=onewesong.onewesong)
 
