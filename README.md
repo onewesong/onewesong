@@ -1,13 +1,12 @@
 ### Hi there 👋
-![Profile](https://github-readme-stats.vercel.app/api?username=onewesong&show_icons=true&theme=radical)
-</br>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=onewesong&hide=html,css&theme=radical&layout=compact)
 </br>
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=onewesong.onewesong)
 
 <!--
 **onewesong/onewesong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+![Profile](https://github-readme-stats.vercel.app/api?username=onewesong&show_icons=true&theme=radical)
+</br>
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
