@@ -1,3 +1,6 @@
 [submodule "resume"]
 	path = resume
 	url = https://github.com/onewesong/resume.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/onewesong/onewesong.github.io.git
