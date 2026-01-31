@@ -3,8 +3,8 @@
 📍 Hangzhou | 🤖 AI Tools Builder | 🚀 Do The Right Thing
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
@@ -14,20 +14,20 @@
 
 ## Current Projects | 当前项目
 
-- 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - Lightweight OpenAI-compatible API gateway | 轻量级 OpenAI 兼容 API 网关
-- 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Codex CLI local analytics dashboard | Codex CLI 本地数据分析仪表盘
-- 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库增长情况
-- 🔗 [shorturl](https://github.com/onewesong/shorturl) - Minimalist self-hosted URL shortener | 极简自用短链接服务
-- 🌐 [one-api-nginx](https://github.com/onewesong/one-api-nginx) - LLM Gateway based on OpenResty | 基于 OpenResty 的极简 LLM 网关
-- 🎭 [mock-server](https://github.com/onewesong/mock-server) - Mock Server with visual dashboard | 带可视化管理台的 Mock Server
-- 💻 [open-playcode](https://github.com/onewesong/open-playcode) - Online code editor with live preview | 轻量在线代码编辑器
-- 📚 [ai-wiki](https://github.com/NotebookAI/ai-wiki) - AI/LLM/RAG/Agent glossary | AI 专业名词百科
-- 🔄 [code-switch](https://github.com/onewesong/code-switch) - Claude Code model/provider switcher | Claude Code 模型切换神器
-- 🌍 [openries](https://github.com/onewesong/openries) - Chrome extension for intelligent terminology translation | 智能术语翻译扩展
+- 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight API gateway for routing OpenAI-compatible endpoints to multiple upstream providers | 轻量级 OpenAI 兼容 API 网关
+- 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
+- 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex CLI sessions with trends, token usage, tools, and word cloud | Codex CLI 本地数据分析仪表盘
+- 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
+- 🌐 [one-api-nginx](https://github.com/onewesong/one-api-nginx) - A minimal LLM Gateway based on OpenResty with model routing and multi-provider support | 基于 OpenResty 的极简 LLM 网关
+- 🎭 [mock-server](https://github.com/onewesong/mock-server) - A Mock Server with visual management dashboard | 带可视化管理台的 Mock Server (Go/Gin + Vue3/Vite)
+- 💻 [open-playcode](https://github.com/onewesong/open-playcode) - A lightweight online code editor like playcode.io with HTML/CSS/JS editing and live preview | 轻量在线代码编辑器，支持 React/JSX
+- 📚 [ai-wiki](https://github.com/NotebookAI/ai-wiki) - An AI/LLM/RAG/Agent glossary for everyone interested in AI | AI 专业名词百科，用不吓人的语言帮你看懂 AI 世界
+- 🔄 [code-switch](https://github.com/onewesong/code-switch) - A lightweight Claude Code model/provider switcher | 一个精简的 Claude Code 模型/服务商快速切换神器
+- 🌍 [openries](https://github.com/onewesong/openries) - A Chrome extension for intelligent terminology translation with LLM | 基于大语言模型的智能术语混合翻译浏览器扩展
 
 ### Legacy Work | 早期作品
 
-- ⚡ [goforeach](https://github.com/onewesong/goforeach) - Run commands concurrently with goroutines | 并发执行命令的命令行工具
+- ⚡ [goforeach](https://github.com/onewesong/goforeach) - Run commands concurrently with goroutines | 使用 goroutine 并发执行命令的命令行工具
 
 ## GitHub Activity | GitHub 活动
 
