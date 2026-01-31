@@ -7,6 +7,8 @@
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=onewesong.onewesong)
+<a href="https://llmapis.com?source=https%3A%2F%2Fgithub.com%2Fonewesong%2Fonewesong" target="_blank"><img src="https://llmapis.com/api/badge/onewesong/onewesong" alt="LLMAPIS" width="20" /></a>
 
 > Building AI-powered developer tools and infrastructure. Passionate about making development workflows faster and more efficient.
 >
@@ -35,8 +37,6 @@
 
 ## Connect | 联系方式
 
-[Blog](https://onewesong.github.io/) · [Email](mailto:onewesong@gmail.com)
-
----
-
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=onewesong.onewesong)
+[![WeChat](https://img.shields.io/badge/微信公众号-2AGI-07C160?style=flat-square&logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/GqtFRPkxKXVagyCNilDReA)
+[![Blog](https://img.shields.io/badge/Blog-onewesong.github.io-orange?style=flat-square&logo=github)](https://onewesong.github.io/)
+[![Email](https://img.shields.io/badge/Email-onewesong@gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:onewesong@gmail.com)

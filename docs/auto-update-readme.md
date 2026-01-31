@@ -165,6 +165,42 @@ Edit `scripts/update_readme.py`:
 current, legacy = generate_project_list(repos_data, legacy_cutoff_days=365)
 ```
 
+## What's Safe? | 哪些内容是安全的？
+
+The script **only replaces** content between `## Current Projects | 当前项目` and `## GitHub Activity`. All other sections remain untouched.
+
+脚本**只替换** `## Current Projects | 当前项目` 到 `## GitHub Activity` 之间的内容，其他部分完全不受影响。
+
+```
+README.md Structure | README.md 结构:
+┌─────────────────────────────────────┐
+│ # Hi, I'm WeSong 👋                 │  ← ✅ Safe / 安全
+│ 📍 Hangzhou | 🤖 AI Tools Builder   │  ← ✅ Safe / 安全
+│ ...badges & intro...                │  ← ✅ Safe / 安全
+├─────────────────────────────────────┤
+│ ## Current Projects | 当前项目      │  ← 🔄 Replaced / 会替换
+│ - 🚇 [open-next-router]...          │  ← 🔄 Replaced / 会替换
+│ ...                                 │  ← 🔄 Replaced / 会替换
+│ ### Legacy Work | 早期作品          │  ← 🔄 Replaced / 会替换
+│ - ⚡ [goforeach]...                 │  ← 🔄 Replaced / 会替换
+├─────────────────────────────────────┤
+│ ## GitHub Activity | GitHub 活动    │  ← ✅ Safe / 安全
+│ ![Contribution Graph]...            │  ← ✅ Safe / 安全
+│                                     │
+│ ## Connect | 联系方式               │  ← ✅ Safe / 安全
+│ [Blog] · [Email] · [公众号Badge]    │  ← ✅ Safe / 安全
+│                                     │
+│ ![visitors]...                      │  ← ✅ Safe / 安全
+└─────────────────────────────────────┘
+```
+
+**Safe to add / 可以安全添加:**
+- New badges in header / 头部新增徽章
+- Personal introduction / 个人介绍
+- Contact information / 联系方式
+- Footer content / 底部内容
+- Any section before "Current Projects" or after "GitHub Activity" / 任何在项目列表之前或之后的内容
+
 ## Troubleshooting | 故障排除
 
 ### Workflow not running / 工作流未运行
