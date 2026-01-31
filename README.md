@@ -38,5 +38,5 @@
 ## Connect | 联系方式
 
 [![WeChat](https://img.shields.io/badge/微信公众号-2AGI-07C160?style=flat-square&logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/GqtFRPkxKXVagyCNilDReA)
-[![Blog](https://img.shields.io/badge/Blog-onewesong.github.io-orange?style=flat-square&logo=github)](https://onewesong.github.io/)
+[![Blog](https://img.shields.io/badge/Blog-onewesong.github.io-informational?style=flat-square&logo=github)](https://onewesong.github.io/)
 [![Email](https://img.shields.io/badge/Email-onewesong@gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:onewesong@gmail.com)
