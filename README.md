@@ -29,6 +29,7 @@
 
 ### Legacy Work | 早期作品
 
+- 🔧 [goforward](https://github.com/onewesong/goforward) - goforward is a foward tcp stream tool implemented by golang, even across protocols
 - ⚡ [goforeach](https://github.com/onewesong/goforeach) - Run commands concurrently with goroutines | 使用 goroutine 并发执行命令的命令行工具
 
 ## GitHub Activity | GitHub 活动
