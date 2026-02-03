@@ -1,0 +1,50 @@
+name: 📝 博客文章
+description: 创建一篇新的博客文章
+title: "[Blog] "
+labels: ["blog"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 文章标题
+      description: 为你的博客文章起个标题
+      placeholder: 例如：我对 AI 的一些思考
+    validations:
+      required: true
+  
+  - type: textarea
+    id: content
+    attributes:
+      label: 文章内容
+      description: 在这里写下你的博客内容，支持 Markdown 格式
+      placeholder: |
+        开始写作...
+        
+        支持 Markdown 格式：
+        - **粗体**
+        - *斜体*
+        - [链接](https://example.com)
+        - 代码块
+        - 图片等
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: 文章分类
+      description: 选择文章所属分类
+      options:
+        - 技术
+        - 生活
+        - 思考
+        - 随笔
+        - 其他
+      default: 0
+  
+  - type: input
+    id: tags
+    attributes:
+      label: 标签
+      description: 添加相关标签，用逗号分隔
+      placeholder: 例如：AI, 编程, 思考
