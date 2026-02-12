@@ -16,7 +16,7 @@
 
 ## Current Projects | 当前项目
 
-- 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight API gateway for routing OpenAI-compatible endpoints to multiple upstream providers | 轻量级 OpenAI 兼容 API 网关
+- 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels | 轻量级、DSL 驱动的 LLM 网关：跨渠道路由、修补上游差异、统一 API 行为
 - 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
 - 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex sessions with trends, token usage, tools, and word cloud | Codex 本地数据分析仪表盘
 - 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
