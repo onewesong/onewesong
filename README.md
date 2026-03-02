@@ -16,6 +16,7 @@
 
 ## Current Projects | 当前项目
 
+- 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
 - 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels
 - 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
 - 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex sessions with trends, token usage, tools, and word cloud | Codex 本地数据分析仪表盘
