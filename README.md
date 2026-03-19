@@ -16,6 +16,7 @@
 
 ## Current Projects | 当前项目
 
+- 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Streamlit dashboard for Codex usage and rate limits
 - 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels
 - 🔧 [http-relay](https://github.com/onewesong/http-relay) - A lightweight HTTP relay that forwards /{absolute-url} requests with optional proxy and traffic dump.
 - 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
