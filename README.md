@@ -16,8 +16,8 @@
 
 ## Current Projects | 当前项目
 
-- 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
 - 🔧 [http-relay](https://github.com/onewesong/http-relay) - A lightweight HTTP relay that forwards /{absolute-url} requests with optional proxy and traffic dump.
+- 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
 - 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels
 - 📈 [notify](https://github.com/onewesong/notify) - A Go + Gin notification service template with email delivery, admin panel, SQLite, Docker Compose, and tag-based GitHub release.
 - 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Local Codex usage dashboard with Streamlit, CLI output, and change-based history collection
