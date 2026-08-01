@@ -17,8 +17,8 @@
 ## Current Projects | 当前项目
 
 - 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels
-- 🎭 [http-mock](https://github.com/edgefn/http-mock) - for mock http response
 - 🔧 [http-relay](https://github.com/onewesong/http-relay) - A lightweight HTTP relay that forwards /{absolute-url} requests with optional proxy and traffic dump.
+- 🎭 [http-mock](https://github.com/edgefn/http-mock) - for mock http response
 - 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Local Codex usage dashboard with Streamlit, CLI output, and change-based history collection
 - 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
 - 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
