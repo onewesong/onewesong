@@ -16,11 +16,13 @@
 
 ## Current Projects | 当前项目
 
+- 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
+- 🔧 [echo-crate](https://github.com/onewesong/echo-crate) - 聚合各大数据源实现听歌自由
+- 🔧 [cleandisk](https://github.com/onewesong/cleandisk) - 针对开发人员使用场景定制的磁盘清理工具
 - 🚇 [open-next-router](https://github.com/r9s-ai/open-next-router) - A lightweight, DSL-driven LLM gateway for routing, patching provider quirks, and normalizing APIs across channels
 - 🔧 [http-relay](https://github.com/onewesong/http-relay) - A lightweight HTTP relay that forwards /{absolute-url} requests with optional proxy and traffic dump.
 - 🎭 [http-mock](https://github.com/edgefn/http-mock) - for mock http response
 - 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Local Codex usage dashboard with Streamlit, CLI output, and change-based history collection
-- 📈 [better-git-of-theseus](https://github.com/onewesong/better-git-of-theseus) - Analyze how a Git repo grows over time | 分析 Git 仓库随时间的增长情况
 - 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
 - 📈 [notify](https://github.com/onewesong/notify) - A Go + Gin notification service template with email delivery, admin panel, SQLite, Docker Compose, and tag-based GitHub release.
 - 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
