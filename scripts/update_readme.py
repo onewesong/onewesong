@@ -177,6 +177,7 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
         description = repo.get("description") or ""
         url = repo.get("html_url", f"https://github.com/{full_name}")
         pushed_at = repo.get("pushed_at", "")
+        stars = repo.get("stargazers_count", 0) or 0
         
         emoji = get_emoji_for_repo(repo)
         en_desc, zh_desc = extract_bilingual_description(description)
@@ -188,6 +189,7 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
             desc_text = en_desc
         
         line = f"- {emoji} [{name}]({url}) - {desc_text}"
+        sort_key = (-stars, name.lower())
         
         # Check if legacy (not updated in over a year)
         if pushed_at:
@@ -195,18 +197,18 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
                 pushed_date = datetime.fromisoformat(pushed_at.replace("Z", "+00:00"))
                 days_since_update = (now - pushed_date).days
                 if days_since_update > legacy_cutoff_days:
-                    legacy_projects.append((pushed_date, line))
+                    legacy_projects.append((sort_key, line))
                 else:
-                    current_projects.append((pushed_date, line))
+                    current_projects.append((sort_key, line))
             except Exception as e:
                 print(f"  Warning: Could not parse date {pushed_at}: {e}")
-                current_projects.append((now, line))
+                current_projects.append((sort_key, line))
         else:
-            current_projects.append((now, line))
+            current_projects.append((sort_key, line))
     
-    # Sort by date (most recent first)
-    current_projects.sort(key=lambda x: x[0], reverse=True)
-    legacy_projects.sort(key=lambda x: x[0], reverse=True)
+    # Sort by star count (most stars first), then name
+    current_projects.sort(key=lambda x: x[0])
+    legacy_projects.sort(key=lambda x: x[0])
     
     return [p[1] for p in current_projects], [p[1] for p in legacy_projects]
 
