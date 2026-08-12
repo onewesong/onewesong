@@ -121,6 +121,22 @@ def get_repo_details(full_name):
         return None
 
 
+def get_commit_count(full_name, default_branch):
+    """Get the total commit count for the repository's default branch."""
+    url = f"https://api.github.com/repos/{full_name}/commits"
+    params = {"sha": default_branch, "per_page": 1}
+    try:
+        response = requests.get(url, headers=get_headers(), params=params, timeout=10)
+        response.raise_for_status()
+        link = response.links.get("last")
+        if link:
+            return int(link["url"].split("page=")[-1].split("&", 1)[0])
+        return len(response.json())
+    except Exception as e:
+        print(f"Error fetching commit count for {full_name}: {e}")
+        return 0
+
+
 def get_emoji_for_repo(repo_data):
     """Get an appropriate emoji for the repo based on topics and name."""
     name = repo_data.get("name", "")
@@ -178,6 +194,7 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
         url = repo.get("html_url", f"https://github.com/{full_name}")
         pushed_at = repo.get("pushed_at", "")
         stars = repo.get("stargazers_count", 0) or 0
+        commits = get_commit_count(full_name, repo.get("default_branch", ""))
         
         emoji = get_emoji_for_repo(repo)
         en_desc, zh_desc = extract_bilingual_description(description)
@@ -189,7 +206,7 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
             desc_text = en_desc
         
         line = f"- {emoji} [{name}]({url}) - {desc_text}"
-        sort_key = (-stars, name.lower())
+        sort_key = (-commits, -stars, name.lower())
         
         # Check if legacy (not updated in over a year)
         if pushed_at:
@@ -206,7 +223,7 @@ def generate_project_list(repos_data, legacy_cutoff_days=365):
         else:
             current_projects.append((sort_key, line))
     
-    # Sort by star count (most stars first), then name
+    # Sort by commit count (most commits first), then stars, then name
     current_projects.sort(key=lambda x: x[0])
     legacy_projects.sort(key=lambda x: x[0])
     
