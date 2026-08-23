@@ -26,7 +26,7 @@
 - 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Local Codex usage dashboard with Streamlit, CLI output, and change-based history collection
 - 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex sessions with trends, token usage, tools, and word cloud | Codex 本地数据分析仪表盘
 - 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
-- 🔧 [mcphub](https://github.com/r9s-ai/mcphub) - 
+- 🔧 [mcphub](https://github.com/r9s-ai/mcphub) - Connect local. Govern globally.
 - 🌍 [openries](https://github.com/onewesong/openries) - A Chrome extension for intelligent terminology translation with LLM | 基于大语言模型的智能术语混合翻译浏览器扩展
 - 🔧 [cleandisk](https://github.com/onewesong/cleandisk) - 针对开发人员使用场景定制的磁盘清理工具
 - 📈 [notify](https://github.com/onewesong/notify) - A Go + Gin notification service template with email delivery, admin panel, SQLite, Docker Compose, and tag-based GitHub release.
