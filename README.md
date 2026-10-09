@@ -28,7 +28,7 @@
 - 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
 - 🔧 [mcphub](https://github.com/r9s-ai/mcphub) - Connect local. Govern globally.
 - 🌍 [openries](https://github.com/onewesong/openries) - A Chrome extension for intelligent terminology translation with LLM | 基于大语言模型的智能术语混合翻译浏览器扩展
-- 🔧 [cleandisk](https://github.com/onewesong/cleandisk) - 针对开发人员使用场景定制的磁盘清理工具
+- 🔧 [cleandisk](https://github.com/onewesong/cleandisk) - A disk cleaning tool customized for developers' usage scenarios | 针对开发人员使用场景定制的磁盘清理工具
 - 📈 [notify](https://github.com/onewesong/notify) - A Go + Gin notification service template with email delivery, admin panel, SQLite, Docker Compose, and tag-based GitHub release.
 - 🔄 [code-switch](https://github.com/onewesong/code-switch) - A lightweight Claude Code model/provider switcher | 一个精简的 Claude Code 模型/服务商快速切换神器
 - 🤖 [docs2mcp](https://github.com/r9s-ai/docs2mcp) - Turn local documentation into a remote, read-only MCP server for AskMesh, Claude, Codex, and any compatible AI agent.
