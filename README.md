@@ -21,7 +21,7 @@
 - 🔧 [http-relay](https://github.com/onewesong/http-relay) - A lightweight HTTP relay that forwards /{absolute-url} requests with optional proxy and traffic dump.
 - 📚 [ai-wiki](https://github.com/NotebookAI/ai-wiki) - An AI/LLM/RAG/Agent glossary for everyone interested in AI | AI 专业名词百科，用不吓人的语言帮你看懂 AI 世界
 - 🎭 [http-mock](https://github.com/edgefn/http-mock) - for mock http response
-- 🔧 [echo-crate](https://github.com/onewesong/echo-crate) - 聚合各大数据源实现听歌自由
+- 🔧 [echo-crate](https://github.com/onewesong/echo-crate) - Aggregate various data sources to achieve the freedom of listening to music | 聚合各大数据源实现听歌自由
 - 🔗 [shorturl](https://github.com/onewesong/shorturl) - A minimalist self-hosted URL shortener service | 极简自用短链接服务
 - 📊 [codex-usage-ui](https://github.com/onewesong/codex-usage-ui) - Local Codex usage dashboard with Streamlit, CLI output, and change-based history collection
 - 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex sessions with trends, token usage, tools, and word cloud | Codex 本地数据分析仪表盘
