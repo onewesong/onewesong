@@ -27,7 +27,6 @@
 - 📊 [codex-viz](https://github.com/onewesong/codex-viz) - Local-first dashboard for Codex sessions with trends, token usage, tools, and word cloud | Codex 本地数据分析仪表盘
 - 🤖 [ai-c-suite](https://github.com/one-personcompany/ai-c-suite) - Virtual AI leadership team with CEO, CTO, COO, CFO, CMO roles
 - 🔧 [mcphub](https://github.com/r9s-ai/mcphub) - Connect local. Govern globally.
-- 🌍 [openries](https://github.com/onewesong/openries) - A Chrome extension for intelligent terminology translation with LLM | 基于大语言模型的智能术语混合翻译浏览器扩展
 - 🔧 [cleandisk](https://github.com/onewesong/cleandisk) - A disk cleaning tool customized for developers' usage scenarios | 针对开发人员使用场景定制的磁盘清理工具
 - 📈 [notify](https://github.com/onewesong/notify) - A Go + Gin notification service template with email delivery, admin panel, SQLite, Docker Compose, and tag-based GitHub release.
 - 🔄 [code-switch](https://github.com/onewesong/code-switch) - A lightweight Claude Code model/provider switcher | 一个精简的 Claude Code 模型/服务商快速切换神器
@@ -42,6 +41,7 @@
 
 - ⚡ [goforeach](https://github.com/onewesong/goforeach) - Run commands concurrently with goroutines | 使用 goroutine 并发执行命令的命令行工具
 - 🔧 [goforward](https://github.com/onewesong/goforward) - goforward is a foward tcp stream tool implemented by golang, even across protocols
+- 🌍 [openries](https://github.com/onewesong/openries) - A Chrome extension for intelligent terminology translation with LLM | 基于大语言模型的智能术语混合翻译浏览器扩展
 
 ## GitHub Activity | GitHub 活动
 
